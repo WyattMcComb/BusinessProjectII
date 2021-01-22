@@ -15,7 +15,7 @@
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
         android:scaleType="center"
-        android:src="@drawable/LawnMowers" />
+        android:src="@drawable/lawnmowersrus" />
 
     <ImageView
         android:id="@+id/MiniMower_ImageView"
@@ -26,7 +26,7 @@
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
         android:scaleType="center"
-        android:src="@drawable/MiniMower" />
+        android:src="@drawable/minimowerman" />
 
     <TextView
         android:id="@+id/LMRU_TextView"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:fontFamily="sans-serif-medium"
-        android:paddingTop="30dp"
+        android:paddingTop="20dp"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:textSize="40sp"
@@ -45,7 +45,6 @@
         android:id="@+id/TopPhrase_TextView"
         android:layout_alignParentBottom="false"
         android:layout_above="@id/BottomPhrase_TextView"
-        android:layout_toLeftof="@id/MiniMower_ImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
@@ -58,7 +57,6 @@
         android:id="@+id/BottomPhrase_TextView"
         android:layout_alignParentBottom="true"
         android:layout_above="@id/BottomPhrase_TextView"
-        android:layout_toLeftof="@id/MiniMower_ImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
